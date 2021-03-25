@@ -3,7 +3,7 @@ const app = Vue.createApp({
         return {
             product: 'Socks',
             image: './assets/images/socks_blue.jpg',
-            inStock: true // new data property //
+            inventory: 0 // new data property //
         }
     }
 })
